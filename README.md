@@ -1,24 +1,30 @@
-# System Monitoring and Task Control Panel
+# 🖥️ System Monitoring and Task Control Panel
 
-A comprehensive dashboard for monitoring system resources, ML models, APIs, and performing maintenance tasks.
+A comprehensive dashboard for monitoring system resources, managing ML models, APIs, and executing system maintenance tasks.
 
-## Features
+---
 
-- Real-time hardware monitoring (CPU, GPU, RAM, disk usage)
-- ML model management with status indicators
-- API and WebSocket traffic monitoring
-- Automatic cleanup and process management
-- Testing and debugging panel
+## 🔧 Features
 
-## Tech Stack
+- ✅ Real-time system resource monitoring (CPU, GPU, RAM, Disk)
+- 🧠 ML model management with live status indicators
+- 🌐 API & WebSocket traffic visualization
+- 🧹 Process control & automatic cleanup operations
+- 🧪 Debugging and testing panel for infrastructure components
 
-- **Backend**: FastAPI with Python
-- **Frontend**: React with TypeScript and Tailwind CSS
-- **Data Visualization**: Chart.js
-- **Real-time Updates**: Socket.IO
-- **State Management**: TanStack Query (React Query)
+---
 
-## Setup Instructions
+## 🧱 Tech Stack
+
+- **Backend:** FastAPI (Python)
+- **Frontend:** React + TypeScript + Tailwind CSS
+- **Real-time Communication:** Socket.IO
+- **Charts & Graphs:** Chart.js
+- **State Management:** TanStack Query (React Query)
+
+---
+
+## ⚙️ Setup Instructions
 
 ### Prerequisites
 
@@ -26,60 +32,63 @@ A comprehensive dashboard for monitoring system resources, ML models, APIs, and 
 - Python (v3.9+)
 - npm or yarn
 
-### Installation
+---
 
-1. Clone the repository
+### 🚀 Installation
 
-2. Install frontend dependencies
-```bash
-npm install
-```
+1. **Clone the repository**
 
-3. Install backend dependencies
-```bash
-cd backend
-pip install -r requirements.txt
-```
+   Clone the repository
 
-### Running the Application
+2. **Install frontend dependencies**
 
-1. Start the backend server
-```bash
-cd backend
-uvicorn main:app --reload
-```
+   npm install
 
-2. Start the frontend development server
-```bash
-npm run dev
-```
+3. **Install backend dependencies**
 
-3. Or start both at once
-```bash
-npm run start
-```
+   cd backend
+   pip install -r requirements.txt
 
-## API Endpoints
+### ▶️ Running the Application
 
-- `/api/system` - Get current system statistics
-- `/api/processes` - Get list of running processes
-- `/api/ml-models` - Get ML model information
-- `/api/api-stats` - Get API usage statistics
-- `/api/websocket-stats` - Get WebSocket statistics
-- `/api/storage/large-files` - Get list of large files
-- `/api/cleanup` - Run cleanup operations
-- `/api/process/stop/{pid}` - Stop a process
-- `/api/test/model/{model_id}` - Test a model
-- `/api/test/mongodb` - Test MongoDB connection
+1. **Start the backend server**
 
-## WebSocket Events
+   cd backend
+   uvicorn main:app --reload
 
-- `system_stats` - Real-time system statistics updates
+2. **Start the frontend development server**
 
-## Data Models
+   npm run dev
 
-See `src/types/index.ts` for TypeScript interface definitions of all data models.
+3. **Alternatively, start both at once**
 
-## License
+   npm run start
 
-MIT
+## 🛠️ API Endpoints
+
+| Endpoint                          | Description                   |
+| --------------------------------- | ----------------------------- |
+| `GET /api/system`                 | Get current system statistics |
+| `GET /api/processes`              | List of running processes     |
+| `GET /api/ml-models`              | ML model metadata & status    |
+| `GET /api/api-stats`              | API usage stats               |
+| `GET /api/websocket-stats`        | WebSocket connection stats    |
+| `GET /api/storage/large-files`    | List large disk usage files   |
+| `POST /api/cleanup`               | Trigger system cleanup        |
+| `POST /api/process/stop/{pid}`    | Terminate a running process   |
+| `POST /api/test/model/{model_id}` | Test a machine learning model |
+| `GET /api/test/mongodb`           | MongoDB connection test       |
+
+## 🔄 WebSocket Events
+
+- `system_stats` — Broadcasts real-time system resource updates to the frontend
+
+## 📦 Data Models
+
+- TypeScript interface definitions can be found in:
+
+  src/types/index.ts
+
+## 🪪 License
+
+- This project is licensed under the MIT License
