@@ -89,6 +89,10 @@ A comprehensive dashboard for monitoring system resources, managing ML models, A
 
   src/types/index.ts
 
+  ## 🖼️ Ekran Görüntüsü
+
+![Dashboard Bild](./assets/dashboard.png)
+
 ## 🪪 License
 
 - This project is licensed under the MIT License
