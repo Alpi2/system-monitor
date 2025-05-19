@@ -91,7 +91,10 @@ A comprehensive dashboard for monitoring system resources, managing ML models, A
 
   ## 🖼️ Screenshot
 
-![Dashboard Bild](./assets/dashboard.png)
+![Dashboard Bild](./assets/dashboard1.png)
+![Dashboard Bild](./assets/dashboard2.png)
+![Dashboard Bild](./assets/dashboard3.png)
+![Dashboard Bild](./assets/dashboard4.png)
 
 ## 🪪 License
 
