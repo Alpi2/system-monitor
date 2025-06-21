@@ -2,6 +2,10 @@
 
 A comprehensive dashboard for monitoring system resources, managing ML models, APIs, and executing system maintenance tasks.
 
+🚧 **Hinweis:** Dieses Projekt befindet sich derzeit in aktiver Entwicklung.  
+Funktionen und Schnittstellen können sich ändern oder erweitert werden, je nach Bedarf und Nutzerfeedback.  
+Wir freuen uns über Vorschläge und Beiträge, um die Anwendung kontinuierlich zu verbessern.
+
 ---
 
 ## 🔧 Features
